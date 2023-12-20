@@ -1,4 +1,5 @@
 import jp.ac.uryukyu.ie.e235733.Animal;
+import jp.ac.uryukyu.ie.e235733.Cat;
 
 public class Main {
     public static void main(String[] args){
@@ -6,5 +7,10 @@ public class Main {
 
         System.out.println(animal.getName());
         animal.makeSound();
+
+        Animal cat = new Cat("タマ");
+
+        System.out.println(cat.getName());
+        cat.makeSound();
     }
 }
